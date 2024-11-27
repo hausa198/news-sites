@@ -1,0 +1,194 @@
+/* General Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.hero h1 {
+    font-size: 32px;
+}
+
+.hero p {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* News Grid */
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.news-grid article {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.news-grid article img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.news-grid article h2 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.news-grid article p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px;
+}
+
+.news-grid article a {
+    display: block;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-top: 1px solid #ddd;
+}
+
+.news-grid article a:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #aaa;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Us Page Styles */
+.contact-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.contact-header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.contact-header p {
+    color: #555;
+    font-size: 16px;
+}
+
+.contact-form-section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
